@@ -23,3 +23,47 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'SF Pro Display Light';
+    src: local('SF Pro Display Light'), local('SF-Pro-Display-Light'),
+    url('../fonts/fontsPageTwo/SFProDisplay-Light.woff') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: local('SF Pro Display Regular'), local('SF-Pro-Display-Regular'),
+    url('../fonts/fontsPageTwo/SFProDisplay-Regular.woff') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Medium';
+    src: local('SF Pro Display Medium'), local('SF-Pro-Display-Medium'),
+    url('../fonts/fontsPageTwo/SFProDisplay-Medium.woff') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Semibold';
+    src: local('SF Pro Display Semibold'), local('SF-Pro-Display-Semibold'),
+    url('../fonts/fontsPageTwo/SFProDisplay-Semibold.woff') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Bold';
+    src: local('SF Pro Display Bold'), local('SF-Pro-Display-Bold'),
+    url('../fonts/fontsPageTwo/SFProDisplay-Bold.woff') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

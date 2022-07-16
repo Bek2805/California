@@ -10,6 +10,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.blue_links {
+  color: #5E8BCE;
+}
 button.owl-prev {
   position: absolute;
   top: 39%;
@@ -524,7 +527,7 @@ select{
     &:before {
       content: "";
       position: absolute;
-      right: 45%;
+      right: 41%;
       top: 86.8px;
       margin: auto;
       height: 2.8px;
@@ -536,7 +539,7 @@ select{
     &::after {
       content: "";
       position: absolute;
-      right: 45%;
+      right: 41%;
       top: 78px;
       margin: auto;
       height: 15px;
@@ -662,3 +665,168 @@ select{
     color: #000000;
   }
 }
+.first .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+}
+.first {
+
+  &_title {
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: "SF Pro Display Semibold", sans-serif;
+  }
+  &_desc {
+    color: #828282;
+    font-size: 21px;
+    font-family: "SF Pro Display Light", sans-serif;
+    padding: 15px 0 10px;
+  }
+  &_link {
+    color: #5E8BCE;
+  }
+}
+.second {
+  padding: 35px 5px;
+  & .grid {
+    grid-column-gap: 10px;
+
+  }
+  &_desc {
+    font-size: 16px;
+    font-family: "SF Pro Display Regular", sans-serif;
+  }
+  &_first-card {
+    grid-column-gap: 10px;
+    margin-bottom: 10px;
+    background: #F5F5F7;
+    padding: 20px 25px;
+  }
+  &_link {
+    display: inline-block;
+    padding: 20px 0 5px;
+  }
+  &_card-img img {
+    max-width: 187px;
+    max-height: 270px;
+  }
+  &_num {
+    margin-bottom: 5px;
+  }
+  &_info {
+    color: #828282;
+  }
+}
+.watch .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 100%;
+}
+.watch {
+  & .grid {
+    grid-column-gap: 20px;
+  }
+  padding: 50px 0 30px;
+  &_title {
+    color: #1D1D1F;
+    font-size: 50px;
+    font-family: "SF Pro Display Semibold", sans-serif;
+  }
+  &_desc {
+    font-size: 21px;
+    color: #828282;
+    margin: 8px 0 8px;
+  }
+  &_sm-desc {
+    font-family: "SF Pro Display Medium", sans-serif;
+    font-size: 20px;
+    color: #1D1D1F;
+    padding: 25px;
+  }
+  &-link {
+    text-align: right;
+    display: block;
+    padding: 0 16px 29px;
+  }
+  &_first-card {
+    margin-top: 30px;
+    background: #F5F5F7;
+  }
+  &_card-img img {
+    width: 90%;
+    height: 85%;
+  }
+}
+.video {
+  max-width: 100%;
+  padding-top: 30px;
+
+}
+.professional {
+  padding: 50px 0 30px;
+  &_img img {
+    padding-top: 20px;
+    width: 100%;
+  }
+}
+
+.card {
+  padding: 80px 10px;
+  & .grid {
+    grid-column-gap: 15px;
+  }
+  &_one {
+    background: #F5F5F7;
+  }
+  &_img {
+    display: block;
+    text-align: right;
+    object-fit: cover;
+  }
+  &_first {
+    padding: 45px 25px;
+  }
+  &_desc {
+    margin: 10px 0;
+    color: #6c757d;
+  }
+  &_link {
+    display: block;
+  }
+}
+.news {
+
+  &_news {
+    padding-bottom: 30px;
+  }
+  &_desc {
+    font-size: 21px;
+    color: #828282;
+    margin: 10px 0;
+  }
+  &_title {
+    color: #1D1D1F;
+    font-size: 50px;
+    font-family: "SF Pro Display Semibold", sans-serif;
+  }
+  &_info{
+    padding: 40px 30px;
+  }
+  &_num {
+    color: #BDBDBD;
+  }
+  &_sm-title {
+    margin: 10px 0;
+  }
+  &_sm-desc {
+    margin-bottom: 10px;
+  }
+  &_img img {
+    width: 100%;
+  }
+
+}
+
