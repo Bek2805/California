@@ -1,0 +1,148 @@
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+  .footer {
+    & svg {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+  .section_title {
+    font-size: 40px;
+  }
+  .best {
+    &_title {
+      font-size: 40px;
+    }
+    &_sm-title {
+      font-size: 25px;
+    }
+    &_btn {
+      line-height: 10px;
+    }
+  }
+  .have {
+    &_img img {
+      width: 100%;
+    }
+    &_link {
+      font-size: 18px;
+    }
+    &_all::before, ::after {
+      right: 43%;
+    }
+  }
+}
+@media (max-width: 960px) {
+  .grid_col-4 {
+    grid-template-columns: 1fr;
+  }
+  .have {
+    &_all::before, ::after {
+      right: 41%;
+    }
+  }
+  .best {
+    & .grid {
+      width: 50%;
+    }
+    &_card {
+      margin-bottom: 20px;
+    }
+  }
+  .footer {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .menu_mobile {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 5px;
+  }
+  .menu_btn.menu_active span:before {
+    width: 10px;
+    transform: rotate(-45deg);
+    transform-origin: left bottom;
+  }
+  .menu_btn.menu_active span:after {
+    width: 10px;
+    transform: rotate(45deg);
+    transform-origin: left top;
+  }
+  .menu_wrap {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .menu_wrap.menu_active {
+    visibility: visible;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #222;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    transition: all 0.5s linear;
+    z-index: 9;
+  }
+  .menu_wrap.menu_active .menu {
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  .menu_wrap.menu_active .menu li {
+    padding-top: 20px;
+  }
+  select{
+    background: none;
+    color: #FFFFFF;
+  }
+  .menu li a{
+    color: #FFFFFF;
+  }
+  .logo{
+    display: none;
+  }
+  .box{
+    display: none;
+  }
+  .phone__back{
+    padding-bottom: 30px;
+  }
+  .mobile_col-6{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .col-4{
+    width: 50%;
+  }
+  .item__info{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .phone__text_title{
+    padding: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .shop__text_title{
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .shop__img_macbook__mobile{
+    width: 100%;
+  }
+  .col-4{
+    width: 100%;
+  }
+
+}
