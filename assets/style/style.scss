@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
-
 }
 a {
   color: inherit;
@@ -651,6 +650,7 @@ select{
 }
 .footer {
   padding-bottom: 5px;
+  background: #F8F9FA;
   &_top {
     padding: 44px 0 78px;
   }
@@ -827,6 +827,114 @@ select{
   &_img img {
     width: 100%;
   }
+}
+.istore .container {
+  max-width: 1200px;
+}
+.istore {
+  padding: 20px 0;
+  &_title {
+    font-size: 50px;
+    font-family: "SF Pro Display Semibold", sans-serif;
+    padding-bottom: 50px;
+  }
+  &_img {
+    text-align: center;
+    & img {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+.about .container {
+  max-width: 1200px;
+}
+.about {
+  padding: 40px 0;
+  &_left-side {
+    padding-left: 30px;
+  }
+  &_title {
+    font-weight: 500;
+    font-family: "SF Pro Display Medium", sans-serif;
+    font-size: 30px;
+    color: #1D1D1F;
+    margin-bottom: 20px;
+  }
+  &_sm_title {
+    font-weight: 500;
+    font-family: "SF Pro Display Medium", sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+    color: #1D1D1F;
+  }
+  &_desc {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin: 20px 0;
+  }
+  &_sm-desc {
+    font-family: "SF Pro Display Light", sans-serif;
+    font-size: 15px;
+    color: #828282;
+    margin-top: 5px;
 
+  }
+  &_card {
+    height: 185px;
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    & img {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  &_first {
+    margin: 15px 0;
+  }
+  &_second {
+    margin-left: 15px;
+  }
+}
+.col_6{
+  width: 50%;
+  padding: 0 15px;
 }
 
+.shop__text_title {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.aboutus {
+  padding-bottom: 50px;
+  &__contacts {
+    background: #F5F5F5;
+  }
+  &__contacts_number__phones {
+    font-size: 16px;
+    line-height: 19px;
+    color: #828282;
+    margin-bottom: 15px;
+  }
+  &__contacts_number__phones_call a:first-child{
+    text-decoration: none;
+    color: #000000;
+  }
+  &__contacts_number__phones_call a:first-child:hover {
+    text-decoration: underline;
+  }
+  &__contacts_number {
+    margin-bottom: 54px;
+  }
+  &__contacts {
+    padding: 100px 0;
+  }
+}
