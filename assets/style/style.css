@@ -70,6 +70,11 @@ select {
   flex-wrap: wrap;
 }
 
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .col-6 {
   width: 50%;
 }
@@ -165,11 +170,11 @@ select {
 }
 
 .owl-prev {
-  left: -50px;
+  left: 10px;
 }
 
 .owl-next {
-  right: -50px;
+  right: 10px;
 }
 
 .head__search input#search:focus, .head__search input#search:active {
